@@ -1,6 +1,6 @@
 //template
 exports.run = async (client, msg, args, prefix) => {
-const ableId = ['312852504201396225','529474880488603659','723542166101819513'];
+const ableId = ['Able_Id_Can_Use_this'];
 const idUser = msg.author.id;
 let check = ableId.includes(idUser);
   if(check){
