@@ -1,9 +1,9 @@
 //template
 exports.run = async (client, msg, args, prefix) => {
   
-    const ae = ['Trường','Công Quang','Quang Vinh','Tấn Đạt','Tuấn Mẫn']
+    const ae = ['randomName']
     
-    const idMem = ['529474880488603659','754939196447391855','514281853360930818','534380117711912996','895470223703023617','894737107094999060','531060971767201802']
+    const idMem = ['randomid']
     const idUser = msg.author.id;
 //
   const sleep = (milliseconds) => {
