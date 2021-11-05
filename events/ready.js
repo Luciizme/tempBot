@@ -17,11 +17,11 @@ module.exports = async (client) => {
     let guildFormat = client.util.nFormatter(client.guilds.cache.size);
 
     let status = [ 
-      'Tú', 
+      'cùng anh em gay gangz', 
       'Luci',
     ];
     let rand = client.util.getRandInt(status.length);
 
-    client.user.setActivity(status['cùng anh em gay gangz'], { type: "PLAYING" });
+    client.user.setActivity(status[rand], { type: "PLAYING" });
   }, 6e4);
 };
